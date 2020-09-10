@@ -1,4 +1,4 @@
-$font-stack:    Helvetica, sans-serif;
+/*$font-stack:    Helvetica, sans-serif;
 $primary-color: #333;
 $header-color: blue;
 $text-color: red;
@@ -41,4 +41,811 @@ nav {
     padding: 6px 12px;
     text-decoration: none;
   }
+}*/
+
+/*<><><><>Global Layout<><><><><><><><><><><><><><><><><><><><>*/
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html{
+	background:rgba(255,103,0,1.00);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body{
+	margin: 0 auto;
+	background:rgba(255,103,0,0.2)
+}
+
+.container{
+	margin: 0 auto;
+	padding: 10px;
+}
+
+/*----------Header----------------------------------------------*/
+
+header{
+	text-align: center;
+	position: relative;
+}
+
+.logo{
+	margin-top: 10px;
+	display: inline-block;
+	background-image: url("media/logo.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 150px;
+	width: 100%;
+	max-width: 500px;
+}
+
+
+.recyclelogo{
+	display: inline-block;
+	background-image: url("media/recyclelogo.png");
+	height: 150px;
+	width: 150px;
+}
+
+/*----------Navigation------------------------------------------*/
+
+nav{
+	text-align: center;
+	margin-bottom: 00px;
+	padding: 10px;
+}
+
+nav li{
+	font-size: 1.5em;
+	width: 175px;
+	display: inline-block;
+	padding: 16px 10px;
+	margin: 4px 2px;
+}
+
+/*----------Main------------------------------------------------*/
+
+article{
+	height: 400px;
+	padding: 10px;
+	}
+
+section{
+	height: 100%;
+}
+
+#contactsection1 h2{
+	font-size: 20px;
+	margin: 18px;
+}
+
+h2{
+	margin: 0;
+}
+
+.nomargin{
+	margin: 0;
+}
+/*Here is the different sizes you can apply to the articles 
+!!Without a class the size is 600px!!*/
+.halfhalf{
+	height: 100px;
+}
+
+
+.half{
+	height: 200px;
+}
+
+.halfwidth{
+	max-width: 400px;
+	width: 50%;	
+}
+
+.onehalf{
+	height: 600px;
+}
+
+.double{
+	height: 800px;
+}
+
+.fill{
+	max-width: 1200px;
+	width: 100%;
+}
+/*----------Home------------------------------------------*/
+
+.home{
+	text-align: center;
+}
+
+#home1, #home4{
+	color: white;
+	font-size: 3.1vw;
+	font-weight: 700;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+	padding: 50px 20px;
+}
+
+#home1 p, #home4 p{
+	margin-bottom: 30px;
+}
+
+#home2, #home3{
+	position: relative;
+	overflow: hidden;
+}
+
+#homeh1{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	text-align: right;
+	width: 400px;
+	font-size: 42px;
+	-webkit-text-stroke-width: 1.5px;
+	-webkit-text-stroke-color: black;
+	padding: 5px 10px;
+	color:rgba(255,103,0,1.00);
+}
+
+#homeh2{
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: left;
+	width: 400px;
+	font-size: 40px;
+	-webkit-text-stroke-width: 1.0px;
+	-webkit-text-stroke-color: black;
+	padding: 5px 10px;
+	color: rgba(39,170,225,1.00);
+}
+
+/*----------Tours-----------------------------------------*/
+
+/*------Tour Buttons------*/
+
+.toursheader{
+	text-align: center;
+}
+
+#tours0{
+	padding: 5px;
+	width: 100%;
+	max-width: 470px;
+	margin: 0 auto;
+	padding-top: 14px;
+	box-shadow: inset 0px 0px 6px 2px rgba(0,0,0,0.75);
+	border-radius: 5px;
+}
+
+#tours0 li{
+	display: inline-block;
+	width: 190px;
+	height: 30px;
+	text-decoration: none;
+	margin: 10px 5px;
+	padding-top: 6px;
+}
+
+.tours{
+	text-align: center;
+}
+
+.tours h1 {
+	font-size: 40px;
+}
+
+#tours1, #tours4, #tours5, #tours8, #tours9{
+	padding: 20px;
+}
+
+/*------Tour form------*/
+
+.tourform{
+	text-align: center;
+	max-width: 800px;
+	margin: 20px auto;
+	border-radius: 15px;
+}
+
+.tourform p{
+	display: block;
+}
+
+/*----------About-----------------------------------------*/
+
+.about{
+	text-align: center;
+}
+
+.about h1{
+	font-size: 1.6em;
+	text-align: center;
+	margin: 0;
+	padding: 30px;
+}
+
+iframe{
+	width: 100%;
+	height: 100%;
+	box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.75);
+}
+
+/*----------Contact----------------------------------------*/
+
+.contactsection{
+	text-align: center;
+}
+
+.contactsection ul {
+	width: 80%;
+	padding: 0;
+	display: inline-block;
+}
+
+.contactsection ul p{
+	font-size: 20px;
+	width: 100%;
+	float: left;
+}
+
+.emailbtn{
+	display: inline-block;
+	padding: 10px;
+}
+
+/*-----Contact Form-----*/
+
+.toptext{
+	height: 62px;
+}
+
+form p{
+	font-size: 20px;
+	display: inline-block;
+	font-weight: 700;
+	margin: 20px 0;
+}
+input{
+	height: 30px;
+	width: 80%;
+	margin: 4px 0;
+}
+
+textarea{
+	resize: none;
+	width: 80%;
+	height: 220px;
+	margin: 4px 0;
+	margin-bottom: 0px;
+}
+
+.inlineblock{
+	width: 40%;
+	display: inline-block;
+}
+
+.margin{
+	margin-top: 18px;
+}
+
+.button{
+	height: 40px;
+	margin: 20px;
+}
+
+/*----------Footer----------------------------------------------*/
+
+footer{
+	text-align: center;
+	padding-top: 20px;
+}
+
+.fa {
+	width: 124px;
+	padding: 26px 0;
+	margin: 10px;
+}
+
+footer .contactinfo{
+	width: 100%;
+	max-width: 1200px;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+footer p{
+	display: inline-block;
+	margin: 0;
+}
+
+/*<><><><>Global Beauty Styling<><><><><><><><><><><><><><><><><*/
+
+/*----------Header----------------------------------------------*/
+
+header{
+	background-image: linear-gradient(to bottom, rgba(253,226,167,0.5), rgba(247,170,111,0.5));
+	box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.75);
+}
+
+/*----------Navigation------------------------------------------*/
+
+nav li{
+	box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.75);
+	border-radius: 5px;
+}
+
+nav li:hover{
+	background:rgba(235,188,115,1.00);
+	transition-duration: 0.2s;
+	color: black;
+}
+
+nav li:active{
+	background:rgba(103,103,103,1.00);
+	color: white;
+}
+
+nav a li{
+	text-decoration: none;
+	color: white;
+	background:rgba(39,170,225,1.00);
+}
+
+.active{
+	background:rgba(255,103,0,1.00)
+}
+
+/*----------Main------------------------------------------------*/
+
+.whitebackground{
+	background: rgba(255,255,255,0.8);
+	box-shadow: inset 0px 0px 6px 2px rgba(0,0,0,0.75);
+}
+
+.greybackground{
+	background: rgba(103,103,103,0.8);
+	box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.75);
+	color: white;
+}
+
+.orangebackground{
+	background-image: linear-gradient(to bottom, rgba(253,226,167,0.5), rgba(247,170,111,0.5));
+	box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.75);
+	color: rgba(34,34,34,1.00);
+}
+
+#home2{
+	background-image: url("media/citybicycle600x400px.jpg");
+	background-position: center;
+}
+
+#home3{
+	background-image: url("media/offroadbike600x400px.jpg");
+	background-position: center;
+}
+
+.container{
+	background:rgba(255,103,0,0.7);
+	font-family: Helvetica;
+	box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.75);
+	}
+
+.btn{
+	border-radius: 20px;
+	background: rgba(103,103,103,1.00);
+	color: white;
+	box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.75);
+}
+
+.btn:hover{
+	background:rgba(251,181,107,0.20);
+	color: black;
+	transition-duration: 0.2s;
+}
+
+.btn:active{
+	background: rgba(103,103,103,1.00);
+	color: white;
+}
+
+#contactsection1{
+	border: 1px solid rgba(0,0,0,1);
+}
+
+form{
+	border: 1px solid rgba(0,0,0,0);
+}
+
+/*----------Tours-----------------------------------------------*/
+
+#tours2{
+	background-image: url("media/couple.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+#tours3{
+	background-image: url("media/family600x400px.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#tours6{
+	background-image: url("media/mountaintour600x400px.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+#tours7{
+	background-image: url("media/bikegroup600x400px.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#tours10{
+	background-image: url("media/sunbike600x400px.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+#tours13{
+	width: 100%;
+	max-width: 300px;
+	margin: auto;
+	margin-top: 10px;
+	border-radius: 50px;
+}
+
+#tours13 a{
+	font-size: 30px;
+	text-decoration: none;
+	padding-top: 5px;
+}
+
+/*----------Contact Form----------------------------------------*/
+
+.contactsection{
+	background: rgba(255,255,255,0.8);
+	border-radius: 5px;
+	box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.75);
+}
+
+input, textarea{
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color:rgba(103,103,103,1.00)
+}
+
+input:focus{
+	background:rgba(249,237,215,1.00)
+}
+
+textarea:focus{
+	background:rgba(249,237,215,1.00)
+}
+
+/*----------Footer----------------------------------------------*/
+
+footer{
+	background-image: linear-gradient(to bottom, rgba(253,226,167,0.5), rgba(247,170,111,0.5));
+	box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.75);
+}
+
+.fa {
+	font-size: 70px;
+	background: rgba(103,103,103,1.00);
+	color: white;
+	text-decoration: none;
+	border-radius: 50%;
+	box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.75);
+}
+
+.fa:hover{
+	background:rgba(251,181,107,0.20);
+	transition-duration: 0.2s;
+}
+
+footer .contactinfo{
+	background: rgba(103,103,103,0.50);
+	box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.75);
+}
+
+/*<><><><>Old Phones<><><><><><><><><><><><><><><><><><><><><><>*/
+
+@media all and (max-width: 480px) {
+	html{
+	background-image: url("media/background480x800.jpg");
+	}
+	
+	.logo{
+		margin-top: 10px;
+		display: inline-block;
+		background-image: url("media/logo300px.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 90px;
+		width: 100%;
+		max-width: 300px;
+}
+	
+	nav li{
+		width: 47%;
+	}
+	
+	#home1, #home4{
+		font-size: 7vw;
+		-webkit-text-stroke-width: 1.0px;
+		-webkit-text-stroke-color: black;
+		padding: 35px 20px;
+	}
+	
+	#homeh1{
+		font-size: 36px;
+		width: 300px;
+	}
+	
+	#homeh2{
+		font-size: 34px;
+		width: 300px;
+	}
+	
+	.toursheader{
+		height: 276px;
+	}
+	
+	#tours0 li{
+		width: 94%;
+		max-width: 400px;
+		font-size: 20px;
+		margin: 4px
+	}
+	
+	#tours1, #tours4, #tours5, #tours8, #tours9{
+		font-size: 3.1vw;
+	}
+	
+	.artpic{
+		display: none;
+	}
+	
+	.about p{
+		font-size: 3.8vw;
+		padding: 10px 30px;
+	}
+	
+	#contact1{
+		height: 400px;
+	}
+	#contactsection1{
+		background-image: url("media/support.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: bottom;
+	}
+	
+	form p{
+		font-size: 4vw;
+	}
+	
+	.fa {
+		font-size: 40px;
+		width: 70px;
+		padding: 15px 0;
+	}
+}
+
+/*<><><><>Phone/Small Tablet<><><><><><><><><><><><><><><><><><>*/
+
+@media all and (min-width: 481px) and (max-width: 800px) {
+	html{
+	background-image: url("media/background800x1000.jpg");
+	}
+	
+	.container{
+		max-width: 100%;
+	}
+	
+	.half{
+		height: 200px;
+	}
+	
+
+
+	/*----------Navigation----------*/
+	nav a li{
+		width: 23%;
+		}
+	
+	#home1, #home4{
+		font-size: 5.5vw;
+		padding: 40px 20px;
+	}
+	
+	#home2{
+		background-image: url("media/citybicycle800x533px.jpg");
+		background-position: top;
+	}
+	
+	#home3{
+		background-image: url("media/offroadbike800x533px.jpg");
+		background-position: center;
+	}
+	
+	.artpic{
+		display: none;
+	}
+	
+	#tours1, #tours4, #tours5, #tours8, #tours9{
+		font-size: 15px;
+	}
+	
+	.about p{
+		font-size: 3.0vw;
+		padding: 0px 80px;
+		padding-bottom: 10px;
+	}
+	
+	#contact1{
+		height: 400px;
+	}
+	#contactsection1{
+		background-image: url("media/support800px.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: bottom;
+	}
+	
+}
+
+/*<><><><>Big Tablet/Desktop<><><><><><><><><><><><><><><><><><>*/
+
+@media all and (min-width: 801px) and (max-width: 1200px) {
+	html{
+		background-image: url("media/background1200x1080.jpg");
+	}
+	
+	/*----------Header----------*/
+	.recyclelogo{
+		position: absolute;
+		top: 10px;
+		left: 10px;
+	}
+	
+	/*----------Main----------*/
+	main{
+		overflow: auto;
+	}
+	
+	
+	.fill{
+		max-width: 1200px;
+		width: 100%;
+	}
+	
+	.half{
+		height: 200px;
+	}
+	
+	#home1, #home4{
+		font-size: 3.1vw;
+		padding: 50px 20px;
+	}
+	
+	#tours1, #tours4, #tours5, #tours8, #tours9{
+		font-size: 1.4vw;
+	}
+	
+	.about p{
+		font-size: 1.7vw;
+		padding: 0px 80px;
+		padding-bottom: 10px;
+	}
+	
+	#abouthalf{
+		height: 270px;
+	}
+	
+	#contactsection1{
+		background-image: url("media/support.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: bottom;
+	}
+	
+	article{
+		float: left;
+		width: 50%;
+		max-width: 600px;
+	}
+}
+
+/*<><><><>Large Screens<><><><><><><><><><><><><><><><><><><><><*/
+
+@media screen and (min-width: 1201px) {
+	html{
+		background-image: url("media/background1920x1080.jpg");
+	}
+	
+	.container{
+		max-width: 1200px;
+	}
+	
+	/*----------Header----------*/
+	.recyclelogo{
+		position: absolute;
+		top: 10px;
+		left: 10px;
+	}
+	
+	/*----------Main----------*/
+	main{
+		overflow: auto;
+	}
+	
+	
+	.fill{
+		max-width: 1200px;
+		width: 100%;
+	}
+	
+	#home1, #home4{
+		font-size: 37.2px;
+		padding: 50px 20px;
+	}
+	
+	.about p{
+		font-size: 20px;
+		padding: 0px 80px;
+		padding-bottom: 10px;
+	}
+	
+	#abouthalf{
+		height: 270px;
+	}
+	
+	#contactsection1{
+		background-image: url("media/support.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: bottom;
+	}
+
+	article{
+		float: left;
+		width: 50%;
+		max-width: 600px;
+	}
+
+}
+@media screen and (min-width: 1921px) {
+	html{
+		background-image: url("media/background2560x1080.jpg");
+	}
+}
+@media screen and (min-width: 2561px) {
+	html{
+		background-image: url("media/background3840x2160.jpg");
+	}
 }
