@@ -80,7 +80,7 @@ header{
 .logo{
 	margin-top: 10px;
 	display: inline-block;
-	background-image: url("media/logo.png");
+	background-image: url("../media/logo.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -92,7 +92,7 @@ header{
 
 .recyclelogo{
 	display: inline-block;
-	background-image: url("media/recyclelogo.png");
+	background-image: url("../media/recyclelogo.png");
 	height: 150px;
 	width: 150px;
 }
@@ -430,12 +430,12 @@ nav a li{
 }
 
 #home2{
-	background-image: url("media/citybicycle600x400px.jpg");
+	background-image: url("../media/citybicycle600x400px.jpg");
 	background-position: center;
 }
 
 #home3{
-	background-image: url("media/offroadbike600x400px.jpg");
+	background-image: url("../media/offroadbike600x400px.jpg");
 	background-position: center;
 }
 
@@ -474,35 +474,35 @@ form{
 /*----------Tours-----------------------------------------------*/
 
 #tours2{
-	background-image: url("media/couple.jpg");
+	background-image: url("../media/couple.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: left;
 }
 
 #tours3{
-	background-image: url("media/family600x400px.jpg");
+	background-image: url("../media/family600x400px.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
 #tours6{
-	background-image: url("media/mountaintour600x400px.jpg");
+	background-image: url("../media/mountaintour600x400px.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: left;
 }
 
 #tours7{
-	background-image: url("media/bikegroup600x400px.jpg");
+	background-image: url("../media/bikegroup600x400px.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
 #tours10{
-	background-image: url("media/sunbike600x400px.jpg");
+	background-image: url("../media/sunbike600x400px.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: right;
@@ -575,13 +575,13 @@ footer .contactinfo{
 
 @media all and (max-width: 480px) {
 	html{
-	background-image: url("media/background480x800.jpg");
+	background-image: url("../media/background480x800.jpg");
 	}
 	
 	.logo{
 		margin-top: 10px;
 		display: inline-block;
-		background-image: url("media/logo300px.png");
+		background-image: url("../media/logo300px.png");
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -639,7 +639,7 @@ footer .contactinfo{
 		height: 400px;
 	}
 	#contactsection1{
-		background-image: url("media/support.png");
+		background-image: url("../media/support.png");
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: bottom;
@@ -660,7 +660,7 @@ footer .contactinfo{
 
 @media all and (min-width: 481px) and (max-width: 800px) {
 	html{
-	background-image: url("media/background800x1000.jpg");
+	background-image: url("../media/background800x1000.jpg");
 	}
 	
 	.container{
@@ -684,12 +684,12 @@ footer .contactinfo{
 	}
 	
 	#home2{
-		background-image: url("media/citybicycle800x533px.jpg");
+		background-image: url("../media/citybicycle800x533px.jpg");
 		background-position: top;
 	}
 	
 	#home3{
-		background-image: url("media/offroadbike800x533px.jpg");
+		background-image: url("../media/offroadbike800x533px.jpg");
 		background-position: center;
 	}
 	
@@ -711,7 +711,7 @@ footer .contactinfo{
 		height: 400px;
 	}
 	#contactsection1{
-		background-image: url("media/support800px.png");
+		background-image: url("../media/support800px.png");
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: bottom;
@@ -723,7 +723,7 @@ footer .contactinfo{
 
 @media all and (min-width: 801px) and (max-width: 1200px) {
 	html{
-		background-image: url("media/background1200x1080.jpg");
+		background-image: url("../media/background1200x1080.jpg");
 	}
 	
 	/*----------Header----------*/
@@ -768,7 +768,7 @@ footer .contactinfo{
 	}
 	
 	#contactsection1{
-		background-image: url("media/support.png");
+		background-image: url("../media/support.png");
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: bottom;
@@ -785,7 +785,7 @@ footer .contactinfo{
 
 @media screen and (min-width: 1201px) {
 	html{
-		background-image: url("media/background1920x1080.jpg");
+		background-image: url("../media/background1920x1080.jpg");
 	}
 	
 	.container{
@@ -826,7 +826,7 @@ footer .contactinfo{
 	}
 	
 	#contactsection1{
-		background-image: url("media/support.png");
+		background-image: url("../media/support.png");
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: bottom;
@@ -841,11 +841,11 @@ footer .contactinfo{
 }
 @media screen and (min-width: 1921px) {
 	html{
-		background-image: url("media/background2560x1080.jpg");
+		background-image: url("../media/background2560x1080.jpg");
 	}
 }
 @media screen and (min-width: 2561px) {
 	html{
-		background-image: url("media/background3840x2160.jpg");
+		background-image: url("../media/background3840x2160.jpg");
 	}
 }
